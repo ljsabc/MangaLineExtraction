@@ -1,12 +1,14 @@
 Manga Line Extraction
 --------------
 
-# erika_unstable.h5(weight)
+## erika_unstable.h5(weight)
 
 To download the file please follow this link:
 https://www.dropbox.com/s/m1f5n8xbrpkl37r/erika_unstable.h5?dl=0
+Please use this file as the pre-trained weight for testing.
 
-# Requirement
+
+## Requirement
 
 +  Python3
 +  keras==1.2.0 (1.2.2 is okay too)
@@ -20,11 +22,11 @@ It's strongly recommended to use virtualenv to build the testing environment.
 
 # Usage
 
-test_mse.py [source folder] [output folder]
+        test_mse.py [source folder] [output folder]
 
 Example:
 
-test_mse.py ./Arisa ./output
+        test_mse.py ./Arisa ./output
 
 The outputs will be clipped to 0-255.
 
