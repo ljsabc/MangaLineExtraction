@@ -22,7 +22,8 @@ It's strongly recommended to use virtualenv to build the testing environment.
 
 ## Forward Compatibility
 
-As this project is build against theano, you need to modify the dim orderding into "th"/"channels_first" in your keras.json
+As this project is build against theano, you need to modify the dim orderding into "th"/"channels_first" in your keras.json.
+
 For details of testing with latest version of tensorflow, please refer to #1 .
 
 ## Usage
