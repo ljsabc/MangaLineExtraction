@@ -1,6 +1,8 @@
 Manga Line Extraction
 --------------
 
+**Note: this repo is deprecated. Please check out the [PyTorch version](https://github.com/ljsabc/MangaLineExtraction_PyTorch).**
+
 ## erika_unstable.h5(weight)
 
 To download the file please follow this link:
